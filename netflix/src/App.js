@@ -1,12 +1,13 @@
-
-import './App.css';
+import React from 'react'
+import './App.css'
+import Home from './pages/Home/Home'
 
 function App() {
   return (
-    <div className="App">
-      <h1>hellow</h1>
-    </div>
-  );
+    <>
+      <Home/>
+    </>
+  )
 }
 
-export default App;
+export default App
